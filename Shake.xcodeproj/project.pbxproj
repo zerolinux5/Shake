@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7102A97A16C5902B0078865E /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7102A97916C5902B0078865E /* clouds.jpg */; };
 		71F5135A16BC470000A66C95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F5135916BC470000A66C95 /* UIKit.framework */; };
 		71F5135C16BC470000A66C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F5135B16BC470000A66C95 /* Foundation.framework */; };
 		71F5135E16BC470000A66C95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F5135D16BC470000A66C95 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 		71F5138016BC470100A66C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F5135B16BC470000A66C95 /* Foundation.framework */; };
 		71F5138816BC470100A66C95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71F5138616BC470100A66C95 /* InfoPlist.strings */; };
 		71F5138B16BC470100A66C95 /* ShakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F5138A16BC470100A66C95 /* ShakeTests.m */; };
+		71F5139516BC4DEC00A66C95 /* 574928main_houston_problem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71F5139416BC4DEC00A66C95 /* 574928main_houston_problem.mp3 */; };
+		71F5139716BC540300A66C95 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F5139616BC540300A66C95 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7102A97916C5902B0078865E /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
 		71F5135516BC470000A66C95 /* Shake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F5135916BC470000A66C95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		71F5135B16BC470000A66C95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +62,8 @@
 		71F5138716BC470100A66C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71F5138916BC470100A66C95 /* ShakeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeTests.h; sourceTree = "<group>"; };
 		71F5138A16BC470100A66C95 /* ShakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeTests.m; sourceTree = "<group>"; };
+		71F5139416BC4DEC00A66C95 /* 574928main_houston_problem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 574928main_houston_problem.mp3; sourceTree = "<group>"; };
+		71F5139616BC540300A66C95 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F5139716BC540300A66C95 /* AVFoundation.framework in Frameworks */,
 				71F5135A16BC470000A66C95 /* UIKit.framework in Frameworks */,
 				71F5135C16BC470000A66C95 /* Foundation.framework in Frameworks */,
 				71F5135E16BC470000A66C95 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +94,8 @@
 		71F5134A16BC470000A66C95 = {
 			isa = PBXGroup;
 			children = (
+				7102A97916C5902B0078865E /* clouds.jpg */,
+				71F5139416BC4DEC00A66C95 /* 574928main_houston_problem.mp3 */,
 				71F5135F16BC470000A66C95 /* Shake */,
 				71F5138316BC470100A66C95 /* ShakeTests */,
 				71F5135816BC470000A66C95 /* Frameworks */,
@@ -106,6 +115,7 @@
 		71F5135816BC470000A66C95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71F5139616BC540300A66C95 /* AVFoundation.framework */,
 				71F5135916BC470000A66C95 /* UIKit.framework */,
 				71F5135B16BC470000A66C95 /* Foundation.framework */,
 				71F5135D16BC470000A66C95 /* CoreGraphics.framework */,
@@ -232,6 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7102A97A16C5902B0078865E /* clouds.jpg in Resources */,
+				71F5139516BC4DEC00A66C95 /* 574928main_houston_problem.mp3 in Resources */,
 				71F5136416BC470000A66C95 /* InfoPlist.strings in Resources */,
 				71F5136C16BC470000A66C95 /* Default.png in Resources */,
 				71F5136E16BC470100A66C95 /* Default@2x.png in Resources */,
@@ -379,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shake/Shake-Prefix.pch";
 				INFOPLIST_FILE = "Shake/Shake-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shake/Shake-Prefix.pch";
 				INFOPLIST_FILE = "Shake/Shake-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -448,6 +462,7 @@
 				71F5139016BC470100A66C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F5139116BC470100A66C95 /* Build configuration list for PBXNativeTarget "ShakeTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +471,7 @@
 				71F5139316BC470100A66C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

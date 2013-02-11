@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface CMPViewController : UIViewController
-
+{
+    AVAudioPlayer *audioPlayer;
+    int shakeCount;
+}
 @end
